@@ -6,4 +6,19 @@
 #menu{
 	background-color: green;
 	color: red;
+	float: left;
+}
+
+#content{
+	height: 200px;
+	width: 400px;
+	float: left;
+}
+
+#footer{
+	text-align: center;
+}
+
+#SCpic{
+	position: center;
 }
