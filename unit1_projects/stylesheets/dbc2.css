@@ -4,15 +4,18 @@
 }
 
 #menu{
-	background-color: green;
+	background-color: blue;
 	color: red;
 	float: left;
+	height: 600px;
 }
 
 #content{
 	height: 200px;
 	width: 400px;
 	float: left;
+	background-color: black;
+	color: white;
 }
 
 #footer{
