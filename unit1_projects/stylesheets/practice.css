@@ -26,8 +26,12 @@ body{
     background-color: chocolate;
 }
 
-#recent posts{
-
+#recentposts {
+float: right;
+width: 25%;
+height: 200px;
+background-color: red;
+margin-bottom: 10px;
 }
 
 #ads{
