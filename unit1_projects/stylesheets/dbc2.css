@@ -1,6 +1,7 @@
 #header{
 	background-color: yellow;
 	color:blue;
+	padding: 5px;
 }
 
 #menu{
@@ -16,6 +17,7 @@
 	float: left;
 	background-color: black;
 	color: white;
+	position: relative;
 }
 
 #footer{
