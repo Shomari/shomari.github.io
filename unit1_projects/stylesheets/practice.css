@@ -19,11 +19,12 @@ body{
 }
 
 #content{
-    float: left;
-
+    float: left;	
     width: 74%;
     height: 410px;
-    background-color: chocolate;
+    /* background-color: chocolate; */
+	
+    border: solid;
 }
 
 #recentposts {
@@ -49,4 +50,9 @@ margin-bottom: 10px;
     background-color: black;
     margin-top: 20px;
     height: 15px;
+}
+
+.image{
+    width: 100%;
+    height: auto;
 }
