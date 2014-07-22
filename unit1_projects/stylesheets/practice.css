@@ -1,6 +1,7 @@
 body{
-    background-color: beige;
+    background-color: #bbb;
 
+    margin: 0px;
 }
 #title{
   position: relative;
@@ -11,21 +12,25 @@ body{
     float: left;
 
     width: 100%;
-    height: 75px;
+    height: 150px;
     margin-top: 0px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
     font-family: arimo;
-    background-image: url("images/header1.jpg");
+    font-size: 250%;
+    /* background-image: url("../images/header1.jpg"); */
+    background-color: #666666;
+    border-bottom: solid;
 }
 
 #content{
     float: left;	
-    width: 74%;
-    height: 410px;
+    width: 72%;
+    height: auto;
     /* background-color: chocolate; */
 	
-    border: solid;
+    /* border: solid; */
+    margin-left: 20px;
 }
 
 #recentposts {
@@ -34,6 +39,7 @@ width: 25%;
 height: 200px;
 background-color: red;
 margin-bottom: 10px;
+margin-right: 10px;
 }
 
 #ads{
@@ -42,6 +48,7 @@ margin-bottom: 10px;
     width: 25%;
     height: 200px;
     background-color: blue;
+    margin-right: 10px;
 }
 
 #footer{
@@ -54,6 +61,8 @@ margin-bottom: 10px;
 }
 
 .image{
-    width: 100%;
+    width: 75%;
     height: auto;
+    float: left;
+    clear: left;
 }
