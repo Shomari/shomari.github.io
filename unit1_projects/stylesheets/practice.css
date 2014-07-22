@@ -38,7 +38,7 @@ body{
 }
 
 #nav1{
-    background-color: #000
+    background-color: #000;
     text-align: right;
     color: white;
     float: left;
@@ -47,6 +47,12 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: arimo;
+    font-size: large;
+    text-decoration: none;
+}
+
+#nav:hover{
+    text-decoration: underline;
 }
 
 #posts{
