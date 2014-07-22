@@ -37,6 +37,16 @@ body{
     float: left;
 }
 
+#nav1{
+    background-color: #000
+    text-align: right;
+    color: white;
+}
+
+#posts{
+    text-align: center;
+}
+
 #recentposts {
 float: right;
 width: 31%;
