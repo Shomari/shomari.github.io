@@ -44,10 +44,9 @@ margin-right: 10px;
 
 #ads{
     float: right;
-
+    text-align: center;
     width: 25%;
-    height: 200px;
-    background-color: blue;
+    height: auto;
     margin-right: 10px;
 }
 
