@@ -9,6 +9,12 @@ body {
   width: 100%;
 }
 
+
+@font-face{
+  font-family: dbcfont;
+  src: url("font/Entypo-webfont.woff");
+}
+
 p {
   margin: 1em;
 }
@@ -18,10 +24,15 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: red;
+}
+
 h1 {
   font-size: 2.2em;
   float: left;
   line-height: 75px;
+  font-family: dbcfont
 }
 
 h2 {
@@ -32,6 +43,7 @@ h2 {
   line-height: 80px;
   margin: 0 0 0.5em 0;
   text-align: center;
+  font-family: dbcfont
 }
 
 h3 {
