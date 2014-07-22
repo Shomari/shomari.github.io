@@ -33,6 +33,10 @@ body{
     margin-left: 20px;
 }
 
+#video{
+    float: left;
+}
+
 #recentposts {
 float: right;
 width: 24%;
