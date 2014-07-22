@@ -66,3 +66,7 @@ margin-right: 10px;
     float: left;
     clear: left;
 }
+
+.section{
+    border:solid;
+}
