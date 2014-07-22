@@ -47,7 +47,10 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: arimo;
-    font-size: large;
+    font-size: large;    
+}
+
+.nav_link{
     text-decoration: none;
 }
 
