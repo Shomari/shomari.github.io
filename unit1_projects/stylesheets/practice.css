@@ -1,6 +1,15 @@
-body{
-    background-color: #bbb;
+@font-face {
+    font-family: opensans;
+    src: url("../fonts/OpenSans-Regular.ttf");
+ }
 
+@font-face {
+    font-family: osbold;
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+body{
+    background-color: #336699;
     margin: 0px;
 }
 #title{
@@ -10,31 +19,36 @@ body{
 }
 #header{
     float: left;
-
     width: 100%;
     height: 150px;
-    margin-top: 0px;
-    /* margin-bottom: 20px; */
-    text-align: left;
+    margin-top: 0px;    
+    text-align: left !important;
     font-family: arimo;
-    font-size: 250%;
-    /* background-image: url("../images/header1.jpg"); */
+    font-size: 250%;    
     background-color: #666666;
     border-bottom: solid;
 }
 
+#tophead{
+    text-align: left;
+    padding-left: 15px;
+}
+
 #content{
     float: left;	
-    width: 65%;
-    height: auto;
-    /* background-color: chocolate; */
-	
-    /* border: solid; */
+    width: 67%%;
+    height: auto;    
     margin-left: 20px;
 }
 
-#video{
-    float: left;
+p{
+    font-family: opensans;
+    margin: 10px;
+    font-size: 105%
+}
+
+#video{    
+    height: 250px;
 }
 
 #nav1{
@@ -66,25 +80,30 @@ body{
     text-align: center;
 }
 
+
 #recentposts {
+    position: relative;
+    top: 6px;    
 float: right;
-width: 31%;
-height: auto;
-margin-bottom: 10px;
-margin-right: 1%;
+width: 29%;
+margin-top: 10px;
+margin-right: 0%;
+margin-left: 1%;
+margin-top: 5%;
 }
 
-#ads{
+#archive{
     float: right;
     text-align: center;
-    width: 31%;
-    height: 200px;
-    margin-right: 1%;
+    width: 25%;    
+    margin-right: 3%;
+    margin-top: 5%;
+    border-radius: 15px;
+    background-color: #FEFFF1;
 }
 
 #footer{
-    float: left;
-	
+    float: left;	
     width: 100%;
     background-color: black;
     margin-top: 20px;
@@ -96,5 +115,26 @@ ol{
 }
 
 .section{
-    border:solid;
+    background-color: #FEFFF1;
+  border-radius: 15px;
+  padding-bottom: 25px;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: osbold;
+}
+
+h2{
+    padding-left: 10px;
+    font-family: osbold;
+}
+
+ul, li {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    font-family: opensans;
+
 }
