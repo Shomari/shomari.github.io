@@ -41,6 +41,19 @@ body{
     margin-left: 20px;
 }
 
+#image{
+   
+   width: 100%;
+   max-width: 500px;
+   border-style: solid;
+   border-color: white;
+   border-width: 2px;
+   padding-right: 2px;
+   float: right;
+
+
+}
+
 p{
     font-family: opensans;
     margin: 10px;
@@ -118,6 +131,7 @@ ol{
     background-color: #FEFFF1;
   border-radius: 15px;
   padding-bottom: 25px;
+  position: relative;
     
 }
 
