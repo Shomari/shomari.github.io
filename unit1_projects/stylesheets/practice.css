@@ -60,6 +60,18 @@ p{
     font-size: 105%
 }
 
+#link{
+    font-size: 200%;
+    text-align: center;
+    color: red;
+    position: relative;
+    left: 30% 
+}
+
+#link:hover{
+    background-color: black;
+}
+
 #video{    
     height: 250px;
 }

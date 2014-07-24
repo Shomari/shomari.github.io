@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shomari's title</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/practice.css">
+</head>
+
+<body>
+	<div id="header"><h1 id="tophead">Shomari's DBC Site</h1></div>
+	<div id= "nav1">
+		<a class= "nav_link" href="week_2_tech.html">Technical |</a>
+		<a class= "nav_link" href="week1_cultural.html">Cultural |</a>
+		<a class= "nav_link" href="wireframe_sites.html">Wireframe |</a>
+		<a class= "nav_link" href="contact.html">Contact</a>
+	</div>
+
+	<div id="content">
+
+		<div id= "posts"><h2>Week 2 Technical Blog</h2></div>
+
+		<div class= "section">		
+		
+			<h1>Positioning Smackdown<br> (Relative vs Absolute vs Fixed)</h1>
+			
+			<img src = "images/css3.jpg" id= "image">
+
+
+			<p>Understanding positioning attributes can go a long way in helping you master web design and get your elements to do exactly what you want.  But how do you know which positioning is superior?  Well, that depends on exactly what you are trying to do.</p>  
+
+			<h2>Relative Positioning</h2>
+
+			<p>Setting an element's position to relative allows you to move that element based on where it was before.  It can be very useful if you want to move a heading position over, without affecting any other documents.   See the following code for an example.</p>
+
+<pre>	h1 { position: relative; left: 5px;}</pre>
+
+			<p>In this case, all you are doing is moving the position of the header 5px from where it originally was.   This is a good way to get that perfect fit for titles, paragraph text, or images.</p>
+
+			<h2>Absolute Positioning</h2>
+
+			<p>Setting an element's position to absolute allows you to place that element exactly where you want it, anywhere on the page.  You can even place it on top of other elements or places that you wouldn't normally place an element.  One thing that is important to note is that using absolute position sets the element in a position relative to the body of the entire page, NOT the container that it is in.  </p>
+
+<pre>
+	#image { position: absolute; right: 0px; top: 0px; }</pre>
+
+			<p>This code will set the image all the way in the top right corner of the entire page, which may not be what you want.</p>
+
+			<h2>Combining Relative and Absolute</h2>
+
+			<p>Let's say you have an image inside a container and you want to move that image to the corner of the container.  This can be done by combining relative and absolute positioning.</p>
+
+				<pre>
+	.container{ position: relative; }
+
+	#image{	position: absolute; left: 0px;	top: 0px;}
+				</pre>
+
+			<p>This example will move the image to the top right corner of it's container.  Making your containers relative and your elements inside that container absolute is a good way to specifically place elements where you want them to be.</p>  
+
+			<h2>Fixed Positioning</h2>
+
+			<p>Setting an element's position to fixed will sort of paste it to that point on the screen and it will not move even if you try to scroll away from it.  The best example I can think of is using the freeze pane button in excel.  You can keep the top row in place even as you scroll through the rest of the document.   Use fixed position if you have a nav-menu or something similar on the side, and you want that nav menu to always be on the screen even as the user scrolls down to read content. </p> 
+<pre>
+	#nav{position: absolute;}
+</pre>
+			<p>So you see, each positioning attribute has it's uses.  They are strongest when you use all of them combined to get the most out of your dynamic website.</p>
+
+		 </div>
+	</div>
+
+		<div id="recentposts"> 
+			<iframe id = "video"
+				src="http://www.youtube.com/embed/zPvP67YCgUE">
+			</iframe>			
+		</div>
+	 
+
+	 <div id ="archive">
+	 	<h3>Archive</h3>
+	 	<ul> Technical Posts
+	 		<li><a href = "week_1_tech.html">Week 1 Technical</a></li>
+	 	</ul>
+	 	<ul> Cultural Posts
+	 		<li><a href= "week1_cultural.html">Week 1 Cultural</a></li>
+	 	</ul>
+
+	 </div>
+
+
+	<div id="footer"> footer section </div>
+
+</body>
+</html>
