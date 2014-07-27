@@ -1,0 +1,23 @@
+ header, footer{
+ 	float: left; 
+ 	min-width: 100%; 
+ 	background-color:black; 
+ 	height:60px; 
+ 	color: white; 
+ 	font-size: 18px; 
+ }
+    #section_left{
+    	float: left; 
+    	width: 67%; 
+    	padding: 15px;
+    	  }
+    #section_right{
+    	float: left; 
+    	width: 27%; 
+    	padding: 15px;
+    }
+    #section_media{
+    	float: left; 
+    	width: 27%; 
+    	padding: 15px;
+    }
