@@ -13,7 +13,7 @@
 
 <div class = "text">
 	<h1> Find the Cheese! </h1>
-	<p> You are a hungry mouse looking for cheese that is buried somewhere on a 10 x 10 grid.  Clicking Move mouse runs the move() function, will will move your mouse to the x and y coordinates that you put in.  Run the dig() function by clicking "Dig at your location" to see if the cheese is in that spot.  If not, you will be prompted as to how close you are to the cheese and you will be over to move again.  WARNING: There is a vicious cat looking for you and you only have time to dig in three places.  If you dig a fourth time, you will be devoured.</p>
+	<p> You are a hungry mouse looking for cheese that is buried somewhere on a 10 x 10 grid.  Clicking Move mouse runs the move() function, and will move your mouse to the x and y coordinates that you put in.  Run the dig() function by clicking "Dig at your location" to see if the cheese is in that spot.  If not, you will know how close you are to the cheese and you will be over to move again.  WARNING: There is a vicious cat looking for you and you only have time to dig in three places.  If you dig a fourth time, you will be devoured.</p>
 </div>
 
 <div class = "box">
@@ -65,13 +65,13 @@ var dig = function(){
 	console.log(digCount);
 
 	if (digCount === 4){
-		alert("You lose!  Refresh page to try again!");
+		alert("You are cat food!  Refresh page to try again!");
 		document.getElementById("button").style.visibility = 'hidden'
 		return;
 	} 
 
 	if ((mouse.xLocation == cheese.xLocation) && (mouse.yLocation ==cheese.yLocation)){
-		alert("you found the cheese");
+		alert("You found the cheese");
 	}else{
 		xdiff = (mouse.xLocation-cheese.xLocation);
 		ydiff = (mouse.yLocation-cheese.yLocation);
